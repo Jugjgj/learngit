@@ -11,3 +11,4 @@ Creating a new branch is quick & simple
 Creating a new branch is quick
 Creating a new branch is quick AND simple.
 anyway, this is the line I added
+This file is only for testing.
