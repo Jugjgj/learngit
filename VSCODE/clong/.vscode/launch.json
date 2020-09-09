@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(GDB) Launch",
+            "type": "cppdbg",
+            "request": "launch", //it can also be launch and attach
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [], //some parameter you wanna add in the debugging
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [], //envi parameter
+            "externalConsole": true,
+            "internalConsoleOptions":"neverOpen",
+            "MIMode": "gdb", //it can be lldb or gdb. MIMode means indicating connected debugger
+            "setupCommands": [
+                { //it can be better displaying STL dock
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Compile", //it is the first thing before debugging
+            "miDebuggerPath": "/usr/bin/gdb"
+        }
+    ]
+}
