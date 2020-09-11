@@ -1,0 +1,3 @@
+/mnt/new/test/learngit/VSCODE/cmakeapp2/CMakeFiles/edit_cache.dir
+/mnt/new/test/learngit/VSCODE/cmakeapp2/CMakeFiles/rebuild_cache.dir
+/mnt/new/test/learngit/VSCODE/cmakeapp2/CMakeFiles/Demo.dir

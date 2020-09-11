@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/new/test/learngit/VSCODE/cmakeapp2/main.cpp
+iostream
+-
+mathfunctions.h
+/mnt/new/test/learngit/VSCODE/cmakeapp2/mathfunctions.h
+
+/mnt/new/test/learngit/VSCODE/cmakeapp2/mathfunctions.h
+

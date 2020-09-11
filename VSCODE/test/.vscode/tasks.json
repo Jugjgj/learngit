@@ -1,26 +1,38 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "type": "shell",
-            "label": "C/C++: g++ build active file",
-            "command": "/usr/bin/g++",
-            "args": [
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
-            ],
-            "options": {
-                "cwd": "${workspaceFolder}"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
-        }
-    ]
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "process", //all of things such as pre-parameter definition will be transported to cmd
+			//"shell" mode : all of things would be passed through shell, then cmd
+			"label": "Compile",
+			"command": "/usr/bin/clang++",
+			"args": [
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}",
+				"-g", // produce information about debugging.
+				"-m64", //forcely produce 64bits app
+				"-Wall",
+				"-static-libgcc",
+				"-std=c++14"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared"
+			},
+			//"problemMatcher": [
+			//	"$gcc"
+			//],
+			"group": {
+				"kind": "build",
+				"isDefault": true //ctrl+shift+B hot key on
+			}
+		}
+	]
 }

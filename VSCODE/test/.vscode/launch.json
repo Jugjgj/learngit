@@ -5,24 +5,25 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "g++ - Build and debug active file",
+            "name": "(GDB) Launch",
             "type": "cppdbg",
-            "request": "launch",
+            "request": "launch", //it can also be launch and attach
             "program": "${fileDirname}/${fileBasenameNoExtension}",
-            "args": [],
+            "args": [], //some parameter you wanna add in the debugging
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
-            "environment": [],
+            "environment": [], //envi parameter
             "externalConsole": true,
-            "MIMode": "gdb",
+            "internalConsoleOptions":"neverOpen",
+            "MIMode": "gdb", //it can be lldb or gdb. MIMode means indicating connected debugger
             "setupCommands": [
-                {
+                { //it can be better displaying STL dock
                     "description": "Enable pretty-printing for gdb",
                     "text": "-enable-pretty-printing",
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: g++ build active file",
+            "preLaunchTask": "Compile", //it is the first thing before debugging
             "miDebuggerPath": "/usr/bin/gdb"
         }
     ]
