@@ -1,0 +1,6 @@
+/home/jerryhu/learngit/VSCODE/cmakeapp3/CMakeFiles/edit_cache.dir
+/home/jerryhu/learngit/VSCODE/cmakeapp3/CMakeFiles/rebuild_cache.dir
+/home/jerryhu/learngit/VSCODE/cmakeapp3/CMakeFiles/Demo.dir
+/home/jerryhu/learngit/VSCODE/cmakeapp3/math/CMakeFiles/rebuild_cache.dir
+/home/jerryhu/learngit/VSCODE/cmakeapp3/math/CMakeFiles/edit_cache.dir
+/home/jerryhu/learngit/VSCODE/cmakeapp3/math/CMakeFiles/MathFunctions.dir
