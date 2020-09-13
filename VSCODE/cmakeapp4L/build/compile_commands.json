@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/mnt/new/Repository/VSCODE/cmakeapp4L/build",
+  "command": "/bin/g++-9   -I/mnt/new/Repository/VSCODE/cmakeapp4L/build -I/mnt/new/Repository/VSCODE/cmakeapp4L -I/mnt/new/Repository/VSCODE/cmakeapp4L/math  -g   -o CMakeFiles/Demo.dir/main.cpp.o -c /mnt/new/Repository/VSCODE/cmakeapp4L/main.cpp",
+  "file": "/mnt/new/Repository/VSCODE/cmakeapp4L/main.cpp"
+},
+{
+  "directory": "/mnt/new/Repository/VSCODE/cmakeapp4L/build/math",
+  "command": "/bin/g++-9   -I/mnt/new/Repository/VSCODE/cmakeapp4L/build/math -I/mnt/new/Repository/VSCODE/cmakeapp4L/math  -g   -o CMakeFiles/MathFunctions.dir/MathFunctions.cpp.o -c /mnt/new/Repository/VSCODE/cmakeapp4L/math/MathFunctions.cpp",
+  "file": "/mnt/new/Repository/VSCODE/cmakeapp4L/math/MathFunctions.cpp"
+}
+]

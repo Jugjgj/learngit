@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/mnt/new/Repository/VSCODE/cmakeQuickStart/build",
-  "command": "/bin/g++-9    -g   -o CMakeFiles/helloworldnew.dir/main.cpp.o -c /mnt/new/Repository/VSCODE/cmakeQuickStart/main.cpp",
-  "file": "/mnt/new/Repository/VSCODE/cmakeQuickStart/main.cpp"
-}
-]

@@ -1,0 +1,6 @@
+/mnt/new/Repository/VSCODE/cmakeapp4L/build/CMakeFiles/edit_cache.dir
+/mnt/new/Repository/VSCODE/cmakeapp4L/build/CMakeFiles/rebuild_cache.dir
+/mnt/new/Repository/VSCODE/cmakeapp4L/build/CMakeFiles/Demo.dir
+/mnt/new/Repository/VSCODE/cmakeapp4L/build/math/CMakeFiles/rebuild_cache.dir
+/mnt/new/Repository/VSCODE/cmakeapp4L/build/math/CMakeFiles/edit_cache.dir
+/mnt/new/Repository/VSCODE/cmakeapp4L/build/math/CMakeFiles/MathFunctions.dir
