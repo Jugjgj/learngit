@@ -43,8 +43,6 @@ int main()
                 Tmin =tim1;
     }
 
-
-//!wrong!wrong!wrong!wrong!wrong!wrong!wrong!wrong!wrong!wrong!wrong!wrong!wrong!wrong!wrong
     //&Tmax  
     int Tmax(0);
     int tim2(0);
@@ -61,7 +59,16 @@ int main()
         if (tim2 > Tmax)
                 Tmax =tim2;
     }
-//!wrong!wrong!wrong!wrong!wrong!wrong!wrong!wrong!wrong!wrong!wrong!wrong!wrong!wrong!wrong
+
+    //? Same method but use max function.
+    /*
+        int maxT=0;
+        for (int i=0;i<n;i++)
+        {
+            maxT = max(maxT,  max(x[i] , L-x[i]) );
+        }    
+    
+    */
 
     //&output
     cout << "min:" << Tmin << " ";
